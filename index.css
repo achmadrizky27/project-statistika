@@ -1,0 +1,88 @@
+/* ===================================================                 
+|                   FITUR TAMBAHAN                   | 
+==================================================== */
+/* FONTS GOOGLE */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ysabeau+Infant:wght@200&display=swap");
+
+/* ===================================================                 
+|                     BODY HTML                      | 
+==================================================== */
+body {
+  overflow-x: hidden;
+}
+
+/* ===================================================                 
+|                   NAVIGASI BAR                     | 
+==================================================== */
+.navbar {
+  background-color: rgb(154, 128, 169);
+}
+
+/* ===================================================                 
+|                      PROFILE                       | 
+==================================================== */
+.profile {
+  background-image: url("img/indexphp/profile/background.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 15rem;
+  padding-top: 13rem;
+}
+.profile div a button.btn-tinforlapor {
+  transition: all 0.5s ease;
+}
+.profile div a button.btn-tinforlapor:hover {
+  transform: scale(0.9, 0.9);
+}
+
+/* ===================================================                 
+|                     LIST TEXT                      | 
+==================================================== */
+.list-text {
+  background-color: rgb(154, 128, 169);
+  padding-top: 0.1rem;
+}
+
+/* ===================================================                 
+|                     DASHBOARD                      | 
+==================================================== */
+.dashboard {
+  background-color: rgb(104, 70, 124);
+  padding-top: 8rem;
+}
+.dashboard a.btn-dashboard {
+  transition: all 0.5s ease;
+}
+.dashboard a.btn-dashboard:hover {
+  transform: scale(0.9, 0.9);
+}
+
+/* ===================================================                 
+|                   REGISTRATION                     | 
+==================================================== */
+.registration {
+  padding-top: 8rem;
+}
+.registration div a.btn-registrasi {
+  transition: all 0.5s ease;
+}
+.registration div a.btn-registrasi:hover {
+  transform: scale(0.9, 0.9);
+}
+
+/* ===================================================                 
+|                       NEWS                         | 
+==================================================== */
+.news {
+  background-color: rgb(104, 70, 124);
+  padding-top: 8rem;
+}
+
+/* ===================================================                 
+|                      FOOTER                        | 
+==================================================== */
+.footer {
+  background-color: rgb(104, 70, 124);
+  margin-top: 8rem;
+  padding-bottom: 3rem;
+}
